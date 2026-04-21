@@ -63,7 +63,7 @@ Code:
 ## Association between gTREM1 and CVD incidence
 BioVU Code available in: [BioVU code](https://github.com/bicklab/trem1-tet2-chip/blob/main/KZ_TREM1_CVD_BioVU.r)
 
-UKB Code available in: [UKB code]([https://github.com/bicklab/trem1-tet2-chip/KZ_TREM1_CVD_UKB.r](https://github.com/bicklab/trem1-tet2-chip/blob/main/KZ_TREM1_CVD_UKB.r))
+UKB Code available in: [UKB code](https://github.com/bicklab/trem1-tet2-chip/blob/main/KZ_TREM1_CVD_UKB.r)
 
 ## Data
 This analysis was performed on the [UK Biobank DNA Nexus Research Analysis Platform](https://ukbiobank.dnanexus.com) and BioVU Terra.bio environment.
