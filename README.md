@@ -61,7 +61,7 @@ Code:
 
 
 ## Association between gTREM1 and CVD incidence
-BioVU Code available in: [BioVU code]([https://github.com/bicklab/trem1-tet2-chip/KZ_TREM1_CVD_BioVU.r](https://github.com/bicklab/trem1-tet2-chip/blob/main/KZ_TREM1_CVD_BioVU.r))
+BioVU Code available in: [BioVU code](https://github.com/bicklab/trem1-tet2-chip/blob/main/KZ_TREM1_CVD_BioVU.r)
 
 UKB Code available in: [UKB code]([https://github.com/bicklab/trem1-tet2-chip/KZ_TREM1_CVD_UKB.r](https://github.com/bicklab/trem1-tet2-chip/blob/main/KZ_TREM1_CVD_UKB.r))
 
