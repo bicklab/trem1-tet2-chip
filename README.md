@@ -59,6 +59,11 @@ Code:
          --tag plink2_score \
          -y
 
+## Supplementary Methods
+For the adipose tissue, data derive from the HATIM cohort (NCT04451980; Bailin et al., Front Immunol 2023; GEO: GSE198809), with CHIP genotyping as previously reported (Parker et al., eLife 2025, doi:10.7554/eLife.109131.1). Abdominal subcutaneous adipose tissue (~5 g) was collected by mini-liposuction approximately 3 cm lateral to the umbilicus using a 2.1 mm blunt side-ported catheter. Tissue was dissociated with collagenase D (2 mg/mL) on a gentleMACS dissociator; the stromal vascular fraction was isolated by Ficoll-Paque density gradient and cryopreserved in FBS with 10% DMSO. Samples were labeled with TotalSeq-C hashtag and surface-marker antibodies and multiplexed in groups of four. Libraries were generated with the 10x Chromium Single Cell 5′ assay and sequenced on an Illumina NovaSeq 6000 S2. Reads were aligned to hg38 (STAR v2.7.2a) and counted with CellRanger v6.0.0; samples were genetically demultiplexed with Souporcell and ambient RNA removed with SoupX.
+For the whole blood, whole blood was lysed with ACK buffer to deplete erythrocytes, preserving granulocytes. Libraries were prepared with the 10x Genomics 3′ v3 kit and sequenced on an Illumina NovaSeq targeting 20,000 reads per cell.
+Quality control and analysis was performed for both. Cells with >25% mitochondrial reads, <800 total transcripts, or <200 detected genes were removed. Hashtag oligonucleotides were assigned with HTODemux and doublets identified with DoubletFinder (v2.0.3). Analyses used Seurat (v4.4.0) with Harmony (v0.1.1) batch correction. Cell types were annotated per the reference with scType v1.0. Donors contributing <30 cells to a given subset were excluded from compositional analysis, consistent with the source atlas. Compositional comparisons used donor-level Wilcoxon rank-sum tests with Benjamini-Hochberg correction.
+
 
 ## Association between gTREM1 and CVD incidence
 BioVU Code available in: [BioVU code](https://github.com/bicklab/trem1-tet2-chip/blob/main/KZ_TREM1_CVD_BioVU.r)
